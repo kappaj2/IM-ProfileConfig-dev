@@ -1,6 +1,6 @@
 spring:
     application:
-        name: SystemGateway1
+        name: WorkflowEngineModule
 application:
     restTemplateConfig:
         readTimeout: 350

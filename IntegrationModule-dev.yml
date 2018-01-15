@@ -1,6 +1,6 @@
 spring:
     application:
-        name: BillingModule
+        name: IntegrationModule
 application:
     restTemplateConfig:
         readTimeout: 350

@@ -1,6 +1,6 @@
 spring:
     application:
-        name: BillingModule
+        name: InventoryModule
 application:
     restTemplateConfig:
         readTimeout: 350
