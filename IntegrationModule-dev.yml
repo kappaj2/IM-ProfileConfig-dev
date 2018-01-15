@@ -1,7 +1,3 @@
 spring:
     application:
         name: IntegrationModule
-application:
-    restTemplateConfig:
-        readTimeout: 350
-        connectTimeout: 550
