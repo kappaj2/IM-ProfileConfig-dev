@@ -30,7 +30,7 @@ pubsubmessagetype:
             pub_sub_message_type: Generic
             topics_list: testTopic
     topics_required:
-        topic_names: BillingTopic, GenericTopic, IncidentTopic, IntegrationTopic, InventoryTopic, NoticiationTopic, SystemGatewayTopic, WorkflowEngineTopic
+        topic_names: BillingTopic, GenericTopic, IncidentTopic, IntegrationTopic, InventoryTopic, NotificationTopic, SystemGatewayTopic, WorkflowEngineTopic
     subscriptions:
         -
             application_module_name: BillingModule
