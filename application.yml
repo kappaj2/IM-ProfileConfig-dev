@@ -24,7 +24,7 @@ pubsubmessagetype:
         -
             application_module_name: SystemGatewayModule
             pub_sub_message_type: IncidentMessage
-            topics_list: IncidentTopic
+            topics_list: GenericTopic
         -
             application_module_name: SystemGatewayModule
             pub_sub_message_type: Generic
