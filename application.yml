@@ -15,3 +15,76 @@ jhipster:
         authentication:
             jwt:
                 secret: incidentmanager-develop-secret
+
+#
+# This is the configuration that will determine how the Google Topics as configured.
+#
+pubsubmessagetype:
+    modules:
+        -
+            application_module_name: SystemGatewayModule
+            pub_sub_message_type: IncidentMessage
+            topics_list: IncidentTopic
+        -
+            application_module_name: SystemGatewayModule
+            pub_sub_message_type: Generic
+            topics_list: testTopic
+    topics_required:
+        topic_names: BillingTopic, GenericTopic, IncidentTopic, IntegrationTopic, InventoryTopic, NoticiationTopic, SystemGatewayTopic, WorkflowEngineTopic
+    subscriptions:
+        -
+            application_module_name: BillingModule
+            topic_name: BillingTopic
+            subscription_name: BillingTopicSub
+        -
+            application_module_name: EventModule
+            topic_name: IncidentTopic
+            subscription_name: IncidentTopicSub
+        -
+            application_module_name: IntegrationModule
+            topic_name: IntegrationTopic
+            subscription_name: IntegrationTopicSub
+        -
+            application_module_name: InventoryModule
+            topic_name: InventoryTopic
+            subscription_name: InventoryTopicSub
+        -
+            application_module_name: NotificationModule
+            topic_name: NotificationTopic
+            subscription_name: NotificationTopicSub
+        -
+            application_module_name: SystemGatewayModule
+            topic_name: SystemGatewayTopic
+            subscription_name: SystemGatewayTopicSub
+        -
+            application_module_name: WorkflowEngineModule
+            topic_name: WorkflowEngineTopic
+            subscription_name: WorkflowEngineTopicSub
+        -
+            application_module_name: BillingModule
+            topic_name: GenericTopic
+            subscription_name: BillingGenericSub
+        -
+            application_module_name: EventModule
+            topic_name: GenericTopic
+            subscription_name: EventGenericSub
+        -
+            application_module_name: IntegrationModule
+            topic_name: GenericTopic
+            subscription_name: IntegrationGenericSub
+        -
+            application_module_name: InventoryModule
+            topic_name: GenericTopic
+            subscription_name: InventoryGenericSub
+        -
+            application_module_name: NotificationModule
+            topic_name: GenericTopic
+            subscription_name: NotificationGenericSub
+        -
+            application_module_name: SystemGatewayModule
+            topic_name: GenericTopic
+            subscription_name: SystemGatewayGenericSub
+        -
+            application_module_name: WorkflowEngineModule
+            topic_name: GenericTopic
+            subscription_name: WorkflowEngineGenericSub

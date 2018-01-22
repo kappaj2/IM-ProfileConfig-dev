@@ -1,6 +1,8 @@
 spring:
     application:
         name: SystemGatewayModule
+        
+
 #                
 # This configuration is the same for all the modules at the moment                
 #
@@ -8,3 +10,4 @@ application:
     restTemplateConfig:
         readTimeout: 350
         connectTimeout: 550
+
