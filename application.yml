@@ -88,3 +88,8 @@ pubsubmessagetype:
             application_module_name: WorkflowEngineModule
             topic_name: GenericTopic
             subscription_name: WorkflowEngineGenericSub
+
+# Common configuration shared between all applications
+configserver:
+    name: Local JHipster Registry
+    status: Connected to the JHipster Registry running against GitHub dev profile
