@@ -41,7 +41,7 @@ pubsubmessagetype:
             topic_name: EventTopic
             subscription_name: EventTopicSub
         -
-            application_module_name: IntegrationModule
+            application_module_name: IntegrationModul
             topic_name: IntegrationTopic
             subscription_name: IntegrationTopicSub
         -
