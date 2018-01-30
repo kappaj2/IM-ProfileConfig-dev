@@ -16,6 +16,14 @@ jhipster:
             jwt:
                 secret: incidentmanager-develop-secret
 
+logging:
+    level:
+        ROOT: DEBUG
+        za.co.ajk: DEBUG
+        io.github.jhipster: DEBUG
+        io.grpc: ERROR
+        com.google.cloud.pubsub.v1: ERROR
+        
 #
 # This is the configuration that will determine how the Google Topics as configured.
 #
