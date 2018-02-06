@@ -6,6 +6,9 @@ jhipster:
     registry:
         password: admin
         
+management:
+    context-path: /management
+    
 #management:
 #  context-path: /management
   
