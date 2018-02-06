@@ -10,6 +10,10 @@ spring:
     application:
         name: jhipster-registry
         
+management:
+    security:
+    context-path: /management
+            
 jhipster:
     security:
         authentication:
