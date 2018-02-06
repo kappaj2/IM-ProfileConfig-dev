@@ -1,6 +1,10 @@
 spring:
     application:
         name: EventModule
+
+jhipster:        
+    registry:
+        password: admin
 #                
 # This configuration is the same for all the modules at the moment                
 #
