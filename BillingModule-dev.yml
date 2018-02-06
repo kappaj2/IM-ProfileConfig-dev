@@ -6,8 +6,8 @@ jhipster:
     registry:
         password: admin
         
-management:
-  context-path: /management
+#management:
+#  context-path: /management
   
 #                
 # This configuration is the same for all the modules at the moment                
