@@ -1,6 +1,6 @@
 spring:
     application:
-        name: EventModule
+        name: IncidentModule
 
 jhipster:        
     registry:
