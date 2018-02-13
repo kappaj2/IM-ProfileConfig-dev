@@ -42,16 +42,16 @@ pubsubmessagetype:
             pub_sub_message_type: Generic
             topics_list: testTopic
     topics_required:
-        topic_names: BillingTopic, GenericTopic, EventTopic, IntegrationTopic, InventoryTopic, NotificationTopic, SystemGatewayTopic, WorkflowEngineTopic
+        topic_names: BillingTopic, GenericTopic, IncidentTopic, IntegrationTopic, InventoryTopic, LoggingTopic, NotificationTopic, SystemGatewayTopic, WorkflowTopic
     subscriptions:
         -
             application_module_name: BillingModule
             topic_name: BillingTopic
             subscription_name: BillingTopicSub
         -
-            application_module_name: EventModule
-            topic_name: EventTopic
-            subscription_name: EventTopicSub
+            application_module_name: IncidentModule
+            topic_name: IncidentTopic
+            subscription_name: IncidentTopicSub
         -
             application_module_name: IntegrationModul
             topic_name: IntegrationTopic
@@ -61,25 +61,29 @@ pubsubmessagetype:
             topic_name: InventoryTopic
             subscription_name: InventoryTopicSub
         -
-            application_module_name: NotificationModule
-            topic_name: NotificationTopic
-            subscription_name: NotificationTopicSub
+            application_module_name: InventoryModule
+            topic_name: InventoryTopic
+            subscription_name: InventoryTopicSub
+        -
+            application_module_name: LoggingModule
+            topic_name: LoggingTopic
+            subscription_name: LoggingTopicSub
         -
             application_module_name: SystemGatewayModule
             topic_name: SystemGatewayTopic
             subscription_name: SystemGatewayTopicSub
         -
-            application_module_name: WorkflowEngineModule
-            topic_name: WorkflowEngineTopic
-            subscription_name: WorkflowEngineTopicSub
+            application_module_name: WorkflowModule
+            topic_name: WorkflowTopic
+            subscription_name: WorkflowTopicSub
         -
             application_module_name: BillingModule
             topic_name: GenericTopic
             subscription_name: BillingGenericSub
         -
-            application_module_name: EventModule
+            application_module_name: IncidentModule
             topic_name: GenericTopic
-            subscription_name: EventGenericSub
+            subscription_name: IncidentGenericSub
         -
             application_module_name: IntegrationModule
             topic_name: GenericTopic
@@ -89,6 +93,10 @@ pubsubmessagetype:
             topic_name: GenericTopic
             subscription_name: InventoryGenericSub
         -
+            application_module_name: LoggingModule
+            topic_name: LogginTopic
+            subscription_name: LoggingGenericSub
+        -
             application_module_name: NotificationModule
             topic_name: GenericTopic
             subscription_name: NotificationGenericSub
@@ -97,9 +105,9 @@ pubsubmessagetype:
             topic_name: GenericTopic
             subscription_name: SystemGatewayGenericSub
         -
-            application_module_name: WorkflowEngineModule
+            application_module_name: WorkflowModule
             topic_name: GenericTopic
-            subscription_name: WorkflowEngineGenericSub
+            subscription_name: WorkflowGenericSub
 
 # Common configuration shared between all applications
 configserver:
