@@ -61,14 +61,14 @@ pubsubmessagetype:
             topic_name: InventoryTopic
             subscription_name: InventoryTopicSub
         -
-            application_module_name: InventoryModule
-            topic_name: InventoryTopic
-            subscription_name: InventoryTopicSub
-        -
             application_module_name: LoggingModule
             topic_name: LoggingTopic
             subscription_name: LoggingTopicSub
         -
+            application_module_name: NotificationModule
+            topic_name: NotificationTopic
+            subscription_name: NotificationTopicSub
+        -        
             application_module_name: SystemGatewayModule
             topic_name: SystemGatewayTopic
             subscription_name: SystemGatewayTopicSub
@@ -94,7 +94,7 @@ pubsubmessagetype:
             subscription_name: InventoryGenericSub
         -
             application_module_name: LoggingModule
-            topic_name: LogginTopic
+            topic_name: GenericTopic
             subscription_name: LoggingGenericSub
         -
             application_module_name: NotificationModule
