@@ -114,3 +114,5 @@ pubsubmessagetype:
 configserver:
     name: Local JHipster Registry
     status: Connected to the JHipster Registry running against GitHub dev profile
+    
+googlepubsub.enabled: false;
