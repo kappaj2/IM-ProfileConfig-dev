@@ -116,4 +116,4 @@ configserver:
     status: Connected to the JHipster Registry running against GitHub dev profile
     
 googlepubsub:
-    enabled: true;
+    enabled: true
