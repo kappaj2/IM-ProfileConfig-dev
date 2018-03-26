@@ -65,7 +65,7 @@ pubsubmessagetype:
         -
             application_module_name: SystemGatewayModule  
             pub_sub_message_type: IncidentMessage
-            topics_list: IncidetTopic 
+            topics_list: IncidentTopic 
     topics_required:
         topic_names: TestTopic, BillingTopic, GenericTopic, IncidentTopic, IntegrationTopic, InventoryTopic, LoggingTopic, NotificationTopic, SystemGatewayTopic, WorkflowTopic
     subscriptions:
