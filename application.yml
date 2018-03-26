@@ -61,8 +61,7 @@ pubsubmessagetype:
         -
             application_module_name: WorkflowModule  
             pub_sub_message_type: GenericMessage
-            topics_list: GenericTopic
-                                                                        
+            topics_list: GenericTopic                                                                        
     topics_required:
         topic_names: TestTopic, BillingTopic, GenericTopic, IncidentTopic, IntegrationTopic, InventoryTopic, LoggingTopic, NotificationTopic, SystemGatewayTopic, WorkflowTopic
     subscriptions:
