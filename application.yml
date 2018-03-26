@@ -42,7 +42,7 @@ pubsubmessagetype:
             application_module_name: IncidentModule  
             pub_sub_message_type: GenericMessage
             topics_list: GenericTopic
-         -
+        -
             application_module_name: IntegrationModule  
             pub_sub_message_type: GenericMessage
             topics_list: GenericTopic
